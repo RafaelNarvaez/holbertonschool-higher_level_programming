@@ -1,0 +1,2 @@
+#!/bib/bahs
+python3 -c "$PYCODE"
