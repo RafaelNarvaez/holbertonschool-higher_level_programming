@@ -3,16 +3,19 @@ import random
 
 number = random.randint(-10000, 10000)
 
-newNumber = abs(number) % 10
+ld = "Last digit of"
 
 if number < 0:
-    print("Last digit of {} is {} and is ".format(number, newNumber), end="")
-
-if newNumber > 5:
-    print("greater than 5")
-
-elif newNumber == 0:
-    print("0")
+    Num = number % -10
 
 else:
-    print("less than 6 and not 0")
+    Num = number % 10
+
+if Num > 5:
+    print("{} {} is {} and is greater than 5".format(ld, number, Num))
+
+elif Num == 0:
+    print("{} {} is {} and is 0".format(ld, number, number % 10))
+
+else:
+    print("{} {} is {} and is less than 6 and not 0".format(ld, number, Num))
