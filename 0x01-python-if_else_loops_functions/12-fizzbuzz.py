@@ -8,4 +8,4 @@ def fizzbuzz():
         elif idx % 5 == 0:
             print("Buzz ", end="")
         else:
-            print("{} ",format(idx), end="")
+            print("{} ".format(idx), end="")
