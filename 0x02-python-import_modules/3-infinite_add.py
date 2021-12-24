@@ -1,12 +1,16 @@
 #!/usr/bin/python3
 import sys
-if __name__ == "__main__":
-    argv = sys.argv
-    idx = len(argv)
-    result = 0
-    if idx - 1 == 0:
-        print 0
+
+if __name__ != "__main__":
+    exit()
+
+argc = len(sys.argv) - 1
+
+i = 0
+result = 0
+for arg in sys.argv:
+    if i != 0:
+        result += int(arg)
     else:
-        for idy in range(1, idx):
-            result += int(argv[idy])
-            print("{:d}".format(result))
+        i += 1
+print("{:d}".format(result))
