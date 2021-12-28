@@ -8,14 +8,18 @@ argc = len(argv) - 1
 if argc != 3:
     print("Usage: {:s} <a> <operator> <b>".format(argv[0]))
     exit(1)
+
+a = int(argv[1])
+b = int(argv[3])
+
 elif argv[2] == '+':
-    func = add
+    func = add(a, b)
 elif argv[2] == '-':
-    func = sub
+    func = sub(a, b)
 elif argv[2] == '*':
-    func = mul
+    func = mul(a, b)
 elif argv[2] == '/':
-    func = div
+    func = div(a, b)
 else:
     print("Unknown operator. Available operators: +, -, *, and /")
     exit(1)
