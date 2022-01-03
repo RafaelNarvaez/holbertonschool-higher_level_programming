@@ -24,9 +24,9 @@ At the end of this project, you are expected to be able to explain to anyone wit
 
 Read or watch:
 
- [1.1.3. List](https://docs.python.org/3/tutorial/introduction.html#lists) - Lists
- [Data structures](https://docs.python.org/3/tutorial/datastructures.html) - ((until 3.3. Tuples and Sequences included))
- [Learn to Progra](https://www.youtube.com/watch?v=A1HUzrvS-Pw) : Lists
+* [1.1.3. List](https://docs.python.org/3/tutorial/introduction.html#lists) - Lists
+* [Data structures](https://docs.python.org/3/tutorial/datastructures.html) - (until 3.3. Tuples and Sequences included)
+* [Learn to Program](https://www.youtube.com/watch?v=A1HUzrvS-Pw) : Lists
 
 
 ### Requirements
