@@ -2,6 +2,6 @@
 '''Module Square'''
 
 
-class Square(object):
-    """This is the empty class defined as Square"""
+class Square:
+    """This ass creates a rectangle"""
     Pass
