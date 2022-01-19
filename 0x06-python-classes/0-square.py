@@ -4,4 +4,4 @@
 
 class Square:
     """This ass creates a rectangle"""
-    Pass
+    pass
