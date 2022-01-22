@@ -49,9 +49,9 @@ At the end of this project, you are expected to be able to explain to anyone wit
 - We strongly encourage you to work together on test cases, so that you don’t miss any edge case – The Checker is checking for tests!
 
 
-#### Quiz
+#### :memo: ***Quiz***
 
-- Question #0
+- **Question #0**
 
 ```
 Is this a standardized way to comment a function in Python?
@@ -77,7 +77,7 @@ def add(a, b):
 
 `No`
 
-- Question #2
+- **Question #2**
 
 ```
 Is this a standardized way to comment a function in Python?
@@ -91,7 +91,7 @@ Is this a standardized way to comment a function in Python?
 
 `No`
 
-- Question #3
+- **Question #3**
 
 ```
  Is this a standardized way to comment a function in Python?
@@ -103,7 +103,7 @@ Is this a standardized way to comment a function in Python?
 
 `Yes`
 
-- Question #4
+- **Question #4**
 
 ```
 Is this module correctly commented?
@@ -119,7 +119,7 @@ Is this module correctly commented?
 
 `Yes`
 
-- Question #5
+- **Question #5**
 
 ```
 Is this module correctly commented?
@@ -140,7 +140,7 @@ import sys
 Tips: Docstring must be before import statements
 ```
 
-- Question #6
+- **Question #6**
 
 ```
  Based on this code, what should all the test cases be? (select multiple)
@@ -154,19 +154,19 @@ Tips: Docstring must be before import statements
     return u_list
 
 
-    empty list
+- [x] Empty list
 
-    list with one element (any type)
+- [x] list with one element (any type)
 
-    list with 2 different element (same type)
+- [x] list with 2 different element (same type)
 
-    list with twice the same element (same type)
+- [x] list with twice the same element (same type)
 
-    list with more than 2 times the same element (same type)
+- [x] list with more than 2 times the same element (same type)
 
-    list with multiple types (integer, string, etc…)
+- [x] list with multiple types (integer, string, etc…)
 
-    not a list argument (ex: passing a dictionary to the method)
+- [x] not a list argument (ex: passing a dictionary to the method)
 
 ```
 
