@@ -1,5 +1,9 @@
 ## 0x01. Python - if/else, loops, functions
 
+<figure>
+<img src= "https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/233/code.png"
+</figure>
+
 Learning Objectives
 
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
