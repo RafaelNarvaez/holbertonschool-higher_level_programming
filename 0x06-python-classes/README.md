@@ -1,7 +1,7 @@
 ## 0x06. Python - Classes and Objects## Learning Objectives
 
 <figure>
-	img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/247/oop-meme.jpg"
+<img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/247/oop-meme.jpg"
 </figure>
 
 ### Learning Objectives
