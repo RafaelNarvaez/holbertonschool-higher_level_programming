@@ -1,7 +1,11 @@
-## `0x06. Python - Classes and Objects## Learning Objectives`
+## 0x06. Python - Classes and Objects## Learning Objectives
+
+<figure>
+	img src="https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/247/oop-meme.jpg"
+</figure>
 
 ### Learning Objectives
-
+img src
 At the end of this project, you are expected to be able to explain to anyone without any help...
 
 ### General
