@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 def matrix_divided(matrix, div):
     """
     divides all elements of a matrix, elements must be ->
@@ -5,15 +6,16 @@ def matrix_divided(matrix, div):
     """
 
 
-    if not isinstance(div, (int, float)):
-        raise TypeError("div must be a number")
-        return matrix
+if not isinstance(div, (int, float)):
+    raise TypeError("div must be a number")
+    return matrix
     elif div == 0:
         raise ZeroDivisionError("division by zero")
         return matrix
 
     prevRowLen = -1
     new_list = []
+
     for row in matrix:
         if (prevRowLen != len(row) and prevRowLen != -1):
             raise TypeError("Each row of the matrix must have the same size")
