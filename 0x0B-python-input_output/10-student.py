@@ -12,9 +12,11 @@ class Student:
 
     def to_json(self, attrs=None):
         ''' student representation of the Stident instance '''
-        return self.__dict__
+        if attrs is None:
+            return self.__dict__
 
         new = {}
+
         for attributes in attrs:
             if attributes in self.__dict__:
                 new[attributes] = self.__dict__[attributes]
