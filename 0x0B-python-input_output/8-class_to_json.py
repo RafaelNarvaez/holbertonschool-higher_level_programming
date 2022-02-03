@@ -5,5 +5,3 @@
 def class_to_json(obj):
     '''Returns the Dictionary '''
     return obj.__dict__
-
-
