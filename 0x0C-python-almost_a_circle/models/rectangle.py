@@ -70,3 +70,24 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("y must be >= 0")
         self.__y = value
+
+    def area(self):
+        '''return the area of a rectangle '''
+        return self.width * self.height
+
+    def display(self):
+        ''' Print a Rectangle '''
+        for newLine in range(self.y):
+            print()
+
+        for idx in range(self.height):
+            for space in range(self.x):
+                print(" ", end="")
+            for idy in range(self.width):
+                print("#", end="")
+            print()
+
+    def __str__(self):
+        '''Overrides a rectangle '''
+        return "[Rectangle] (<{}>) <{}>/<{}> - <{}>/<{}>"\
+            .format(self.id, self.x, self.y, self.width, self.height)
