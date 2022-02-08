@@ -8,6 +8,8 @@ class Base:
     __nb_objects = 0
 
     def __init__(self, id=None):
+        ''' define attributes '''
+
         if id != None:
             self.id = id
         else:
