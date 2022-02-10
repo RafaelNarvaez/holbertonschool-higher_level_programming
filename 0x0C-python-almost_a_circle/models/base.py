@@ -49,7 +49,7 @@ class Base:
     @classmethod
     def load_from_file(cls):
         try:
-            with open(cls.__name__ + "json", "r") as file:
+            with open(cls.__name__ + ".json", "r") as file:
                 return[cls.create(**dictionary) for dictionary
                        in cls.from_json_string(file.read())]
         except FileNotFoundError:
