@@ -92,26 +92,25 @@ class Rectangle(Base):
         s = '[Rectangle] ({}) {}/{} - {}/{}'
         return s.format(self.id, self.x, self.y, self.width, self.height)
 
-    def update(self, *args, **kwargs):
-        ''' Update args '''
-        if len(args) > 0:
-            try:
-                self.id = args[0]
-                self.width = args[1]
-                self.height = args[2]
-                self.x = args[3]
-                self.y = args[4]
-            except:
-                pass
+    def update(self, *args, **keywords):
+        ''' Update square with args '''
+        idx = 0
+        if args:
+            while idx < len(args):
+                if idx == 0:
+                    self.id = args[idx]
+                if idx == 1:
+                    self.size = args[idx]
+                if idx == 2:
+                    self.x = args[idx]
+                if idx == 3:
+                    self.y = args[idx]
+                idx += 1
         else:
-            for key, value in kwargs.items():
-                if key == "width":
-                    self.width = value
-                if key == "height":
-                    self.height = value
-                if key == "x":
-                    self.x = value
-                if key == "y":
-                    self.y = value
-                if key == "id":
-                    self.id = value
+            for arg in keywords:
+                setattr(self, arg, keywords.get(arg))
+
+    def to_dictionary(self):
+        ''' Returns dictionary representation of Rectangle '''
+        return {'x': self.__x, 'y': self.__y, 'id': self.id,
+                'height': self.__height, 'width': self.__width}
