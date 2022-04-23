@@ -9,7 +9,7 @@ if __name__ == '__main__':
         print('Body response:')
         print('\t- type: ', end='')
         print(type(html))
-        print('    - content: ', end='')
+        print('\t- content: ', end='')
         print(html)
         print('\t- utf8 content: ', end='')
         print(html.decode('utf-8'))
