@@ -15,4 +15,3 @@ if __name__ == "__main__":
     with urllib.request.urlopen(req) as response:
         info = response.read()
     print(info.decode("ascii"))
-
