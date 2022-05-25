@@ -5,7 +5,7 @@
 Resources (Read or watch)
 
 - [What is JavaScript?]()
-- Selector
+- [Selector](https://jquery-tutorial.net/selectors/using-elements-ids-and-classes/)
 - [Get and set content](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-content/)
 - [Manipulate CSS classes](https://jquery-tutorial.net/dom-manipulation/getting-and-setting-css-classes/)
 - [Manipulate DOM elements](https://jquery-tutorial.net/dom-manipulation/the-append-and-prepend-methods/)
